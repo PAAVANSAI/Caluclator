@@ -5,6 +5,6 @@
      @Test
      public void testAdd() {
        Calculator c = new Calculator();
-       assertEquals(5, c.multiply(2, 3));
+       assertEquals(5, c.add(2, 3));
      }
    }
